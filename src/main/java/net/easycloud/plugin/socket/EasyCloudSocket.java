@@ -45,7 +45,6 @@ public class EasyCloudSocket implements Runnable {
                     Packet poll = packetQueue.poll();
 
                     int packetId = packetManager.getPacketId(poll.getClass());
-                    System.out.println("sending packet with id: " + packetId);
                     this.outputStream.writeInt(packetId);
                     this.outputStream.flush();
 
