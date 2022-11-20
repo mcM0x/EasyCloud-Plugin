@@ -1,0 +1,5 @@
+name: "EasyCloud"
+version: 1.0
+author: "Max_DE"
+
+main: net.easycloud.plugin.EasyCloudPlugin
